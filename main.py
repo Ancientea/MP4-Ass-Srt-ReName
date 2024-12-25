@@ -52,7 +52,7 @@ if __name__ == '__main__':
     directory = 'F:\\MP4\\_已看\\进击的巨人\\第三季'
     video_string = '[Moozzi2] Shingeki no Kyojin S3 - '
     subtitle_string = '[Snow-Raws] 進撃の巨人 Season 3 第'
-    offset = 0  # 偏移量0
+    offset = 0  # 偏移量
 
     delete_subtitle_files(directory) #删除cht或tc结尾繁体字幕
     rename_subtitle_files(directory, video_string, subtitle_string, offset)
